@@ -268,6 +268,7 @@
         background: #ddd;
         border-radius: 50%;
         display: block;
+        margin-bottom: 8vh;
     }
 
     .buttons {
@@ -301,44 +302,55 @@
 
     figcaption {
         margin-bottom: 20px;
-        font-size: 22px;
+        
         font-weight: bold;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-    }
-
-    /* ------------------------------------- edu&exp-------------------------------------- */
+        font-size: 2vw;
+      }
+      /* ------------------------------------- edu&exp-------------------------------------- */
     .edunexp {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
         justify-content: center;
-
+    
     }
-
-    .edu {
+    .edu{
         display: flex;
         flex-direction: column;
         text-align: center;
-
-
-
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        color: #286EE4;
+        margin-right:4vw;
     }
-
-    .exp {
+    .edu >h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        margin-bottom: 3vh;
+    }
+    .exp >h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        margin-bottom: 3vh;
+    }
+    .exp{
         display: flex;
         text-align: center;
         flex-direction: column;
-
-
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vw;
+        color: #286EE4;
+        margin-left:4vw;
+        
+    
     }
-
-    h3 {
-        color: #0074d9;
-    }
+    h3{
+        color:#000;
 
     /* ------------------------------------- contact-------------------------------------- */
     .section_5 {
