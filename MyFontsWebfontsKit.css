@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3837902, 2019-11-18T04:00:37-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HAMISVOL2Regular by Fo Da
+ * URL: https://www.myfonts.com/fonts/fo-da/hamis-vol-2/regular/
+ * Copyright: FO DA
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3a8fce");
+
+  
+@font-face {font-family: 'HAMISVOL2Regular';src: url('webfonts/3A8FCE_0_0.eot');src: url('webfonts/3A8FCE_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A8FCE_0_0.woff2') format('woff2'),url('webfonts/3A8FCE_0_0.woff') format('woff'),url('webfonts/3A8FCE_0_0.ttf') format('truetype');}
+ 
