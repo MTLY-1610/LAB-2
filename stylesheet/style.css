@@ -204,7 +204,7 @@ i {
 
   svg {
     margin: 3vh auto;
-    -webkit-transform: rotate(-90deg);
+   
     transform: rotate(-90deg);
     background: #ddd;
     border-radius: 50%;
@@ -221,7 +221,6 @@ i {
     text-transform: capitalize;
     font-size: 13px;
     cursor: pointer;
-    -webkit-appearance: none;
     border: none;
     margin-right: 5px;
     background-color: transparent;
@@ -233,16 +232,16 @@ i {
 
   button:last-of-type {
     margin-right: 0;
+    margin-bottom: 1vh;
   }
 
-  button.active {
-    font-weight: 400;
+  button.active {   
     background-color: #0074d9;
     color: white;
   }
 
   figcaption {
-    margin-bottom: 20px;
+    margin-bottom: 4vh;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -266,8 +265,9 @@ i {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 01vw;
-    color: #286EE4;
+    color: #000;
     margin-right:4vw;
+    
 }
 .edu >h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -285,7 +285,7 @@ i {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1vw;
-    color: #286EE4;
+    color: #000;
     margin-left:4vw;
     
 

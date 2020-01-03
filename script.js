@@ -25,7 +25,6 @@ let languages = {
     CSS:70,
     JAVASCRIPT:40,
     TYPESCRIPT: 40,
-    JQUERIEetc:50,
   };
   
   // work out percentage as a result of total
