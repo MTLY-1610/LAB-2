@@ -1,5 +1,5 @@
 let date = new Date();
- 
+ /** gets time every one second */
 setInterval(() => {
  date.setSeconds(date.getSeconds() + 1);
  
@@ -7,12 +7,14 @@ setInterval(() => {
  document.getElementById('foo').innerText = time;
 }, 1000);
 
+
+
 let total = 158,
     buttons = document.querySelector('.button'),
     pie = document.querySelector('.pies'),
     activeClass = 'active';
 
-let languages = {
+let skills = {
     SWEDISH: 80,
     ENGLISH : 90,
     FRENCH: 100,
@@ -27,21 +29,23 @@ let languages = {
     TYPESCRIPT: 40,
   };
   
-  // work out percentage as a result of total
+  
+  /** work out percentage as a result of total */
   let numberFixer = function(num){
     let result = ((num * total) / 100);
     return result;
   }
   
-  // create a button for each software
-  for(property in languages){
+  
+  /** create a button for each slills*/
+  for(property in skills){
     let newEl = document.createElement('button');
     newEl.innerText = property;
     newEl.setAttribute('data-name', property);
     buttons.appendChild(newEl);
   }
   
-  // when you click a button setPieChart and setActiveClass
+  /** when you click a button setPieChart and setActiveClass */
     buttons.addEventListener('click', function(e){
       if(e.target != e.currentTarget){
         let el = e.target,
@@ -53,7 +57,7 @@ let languages = {
     });
   
   let setPieChart = function(name){
-    let number = languages[name],
+    let number = skills[name],
         fixedNumber = numberFixer(number),
         result = fixedNumber + ' ' + total;
     
@@ -67,6 +71,6 @@ let languages = {
     }
   }
   
-  // Set up default settings
+  /** Set up default settings */
   setPieChart('SWEDISH');
   setActiveClass(buttons.children[0]);

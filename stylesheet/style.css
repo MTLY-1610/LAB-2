@@ -16,9 +16,6 @@ body {
     src: url('MADESAONARA2.ttf');
 }
 
-
-
-
 /* ------------------------------------- Menu-------------------------------------- */
 
 .wrapper-left {
@@ -74,6 +71,7 @@ body {
     font-size: 1em;
     color: #286EE4;
 }
+
 #burger  {
     display: none;
 }
@@ -113,7 +111,7 @@ i {
     color: #d44;
 }
 
-/* ------------------------------------- Section 1-------------------------------------- */
+/* ------------------------------------- Home-------------------------------------- */
 
 .section_1 {
     position: relative;
@@ -147,7 +145,7 @@ i {
     }
 }
 
-/* --------------------------------------------------------------------------*/
+/* ---------------------------------------------About-----------------------------*/
 .section_2 {
     Display: grid;
     position: relative;
@@ -183,7 +181,8 @@ i {
     scroll-snap-align: center;
     background-color: whitesmoke;
 }
-/* ------------------------------------- piechart-------------------------------------- */
+
+
 .charts{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -194,6 +193,7 @@ i {
     justify-content: center;
     align-items: center;
   }
+
   circle {
     fill: #ddd;
     stroke: #0074d9;
@@ -204,7 +204,6 @@ i {
 
   svg {
     margin: 3vh auto;
-   
     transform: rotate(-90deg);
     background: #ddd;
     border-radius: 50%;
@@ -214,7 +213,6 @@ i {
 
   .buttons {
     margin-bottom: 30px;
-    
   }
 
   button {
@@ -248,6 +246,7 @@ i {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
   }
+
   /* ------------------------------------- edu&exp-------------------------------------- */
 .edunexp {
     display: flex;
@@ -257,8 +256,8 @@ i {
     grid-row-start: 2;
     grid-row-end: 3;
     justify-content: center;
-
 }
+
 .edu{
     display: flex;
     flex-direction: column;
@@ -266,19 +265,21 @@ i {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 01vw;
     color: #000;
-    margin-right:4vw;
-    
+    margin-right:4vw; 
 }
+
 .edu >h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     margin-bottom: 3vh;
 }
+
 .exp >h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     margin-bottom: 3vh;
 }
+
 .exp{
     display: flex;
     text-align: center;
@@ -287,8 +288,6 @@ i {
     font-size: 1vw;
     color: #000;
     margin-left:4vw;
-    
-
 }
 h3{
     color:#000;
@@ -304,6 +303,7 @@ h3{
     background-color: #286EE4;
     z-index: 1000;
 }
+
 .wrapper5{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -312,9 +312,9 @@ h3{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: stretch;
-    
+    align-items: stretch;   
 }
+
 .money {
     display: flex;
     color:whitesmoke;
@@ -323,24 +323,20 @@ h3{
     font-size: 4vw;
     text-align: center;
     line-height: 7vh;
-    
-
 }
+
 .ender_social{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    color:whitesmoke;
-   
+    color:whitesmoke;   
 }
+
 #icons{
     display: flex;
     margin: 3vh 1vw 0vh 1vw;
     color:whitesmoke;
-    font-size: 6vh;
-    
-    
-    
+    font-size: 6vh;    
 }
 
 #icons:hover {
@@ -348,7 +344,5 @@ h3{
     text-decoration: none;
 }
 a {
-    text-decoration: none;
-
-    
+    text-decoration: none; 
 }

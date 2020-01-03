@@ -2,8 +2,6 @@
     * {
         margin: 0;
         padding: 0;
-
-
     }
 
     html,
@@ -12,9 +10,6 @@
         overflow: auto;
         white-space: normal;
         scroll-snap-type: y mandatory;
-
-
-
     }
 
     @font-face {
@@ -22,7 +17,7 @@
         src: url('MADESAONARA2.ttf');
     }
 
-    /* ------------------------------------- Menu-------------------------------------- */
+    /* -------------------------------------Burger Menu-------------------------------------- */
 
     .wrapper-left {
         display: none;
@@ -37,22 +32,25 @@
         font-weight: 900;
         font-family: sans-serif;
         text-transform: uppercase;
-      }
-      body h1 > span {
+    }
+
+    body h1>span {
         text-transform: none;
         opacity: .5;
         font-weight: 300;
         font-size: 12px;
-      }
-      body input + label {
+    }
+
+    body input+label {
         position: fixed;
         top: 15px;
         right: 40px;
         height: 20px;
         width: 15px;
         z-index: 11;
-      }
-      body input + label span {
+    }
+
+    body input+label span {
         position: absolute;
         width: 100%;
         height: 2px;
@@ -62,29 +60,36 @@
         display: block;
         background: #fff;
         transition: .5s;
-      }
-      body input + label span:first-child {
+    }
+
+    body input+label span:first-child {
         top: 3px;
-      }
-      body input + label span:last-child {
+    }
+
+    body input+label span:last-child {
         top: 16px;
-      }
-      body label:hover {
+    }
+
+    body label:hover {
         cursor: pointer;
-      }
-      body input:checked + label span {
+    }
+
+    body input:checked+label span {
         opacity: 0;
         top: 50%;
-      }
-      body input:checked + label span:first-child {
+    }
+
+    body input:checked+label span:first-child {
         opacity: 1;
         transform: rotate(405deg);
-      }
-      body input:checked + label span:last-child {
+    }
+
+    body input:checked+label span:last-child {
         opacity: 1;
         transform: rotate(-405deg);
-      }
-      body input ~ nav {
+    }
+
+    body input~nav {
         background: #d44;
         position: fixed;
         top: 0;
@@ -95,39 +100,44 @@
         transition: .5s;
         transition-delay: .5s;
         overflow: hidden;
-      }
-      body input ~ nav > ul {
+    }
+
+    body input~nav>ul {
         text-align: center;
         position: absolute;
         top: 25%;
         left: 20%;
         right: 20%;
-       
-      }
-      body input ~ nav > ul > li {
+    }
+
+    body input~nav>ul>li {
         list-style-type: none;
         opacity: 0;
         transition: .5s;
         transition-delay: 0s;
-      }
-      body input ~ nav > ul > li > a {
+    }
+
+    body input~nav>ul>li>a {
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
         font-weight: 700;
+        font-size: 5vh;
         font-family: sans-serif;
         display: block;
         padding: 30px;
-      }
-      body input:checked ~ nav {
+    }
+
+    body input:checked~nav {
         height: 100%;
         transition-delay: 0s;
-      }
-      body input:checked ~ nav > ul > li {
+    }
+
+    body input:checked~nav>ul>li {
         opacity: 1;
         transition-delay: .5s;
-      }
-      
+    }
+
     /* ------------------------------------- Social-------------------------------------- */
 
     .social {
@@ -149,7 +159,6 @@
         font-family: 'MADESAONARA2';
         padding-right: 8.5em;
         border: 1em 1 0 1 0;
-
     }
 
     i {
@@ -159,11 +168,10 @@
 
     .social i:hover {
         color: #d44;
-
     }
 
 
-    /* ------------------------------------- Section 1-------------------------------------- */
+    /* ------------------------------------- Home-------------------------------------- */
 
     .section_1 {
         position: relative;
@@ -196,7 +204,7 @@
         }
     }
 
-    /* --------------------------------------------------------------------------*/
+    /* -----------------------------------About---------------------------------------*/
     .section_2 {
         display: grid;
         position: relative;
@@ -211,14 +219,12 @@
     }
 
     .about {
-        animation: fadein 500ms;
         font-family: 'MADESAONARA2';
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
         box-sizing: border-box;
-        text-align: left;
         color: white;
         font-size: 5vh;
         text-align: center;
@@ -238,7 +244,6 @@
         scroll-snap-align: center;
         background-color: whitesmoke;
         z-index: 10;
-
     }
 
     .charts {
@@ -271,14 +276,12 @@
 
     .buttons {
         margin-bottom: 30px;
-
     }
 
     button {
         text-transform: capitalize;
         font-size: 1.5vh;
         cursor: pointer;
-       
         border: none;
         margin-right: 5px;
         background-color: transparent;
@@ -293,7 +296,6 @@
     }
 
     button.active {
-        
         background-color: #0074d9;
         color: white;
     }
@@ -306,7 +308,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    /* ------------------------------------- edu&exp-------------------------------------- */
+    /* ------------------------------------- education & experience-------------------------------------- */
     .edunexp {
         display: flex;
         flex-direction: row;
@@ -315,43 +317,46 @@
         grid-row-start: 2;
         grid-row-end: 3;
         justify-content: center;
-    
     }
-    .edu{
+
+    .edu {
         display: flex;
         flex-direction: column;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.8vh;
         color: #000;
-        margin-right:4vw;
+        margin-right: 4vw;
         line-height: 2.5vh;
     }
-    .edu >h3{
+
+    .edu>h3 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2vh;
         margin-bottom: 3vh;
     }
-    .exp >h3{
+
+    .exp>h3 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2vh;
         margin-bottom: 3vh;
     }
-    .exp{
+
+    .exp {
         display: flex;
         text-align: center;
         flex-direction: column;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.8vh;
         color: #000;
-        margin-left:4vw;
+        margin-left: 4vw;
         line-height: 2.5vh;
-        
-    
     }
-    h3{
-        color:#000;
+
+    h3 {
+        color: #000;
     }
+
     /* ------------------------------------- contact-------------------------------------- */
     .section_5 {
         Display: grid;
@@ -373,7 +378,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: stretch;
-
     }
 
     .money {
@@ -381,11 +385,9 @@
         color: whitesmoke;
         font-family: 'MADESAONARA2';
         padding: 10px;
-        font-size: 4vh;
+        font-size: 5vh;
         text-align: center;
-        line-height: 7vh;
-
-
+        line-height: 5vh;
     }
 
     .ender_social {
@@ -393,7 +395,6 @@
         justify-content: center;
         flex-direction: row;
         color: whitesmoke;
-
     }
 
     #icons {
@@ -401,9 +402,6 @@
         margin: 3vh 1vw 0vh 1vw;
         color: whitesmoke;
         font-size: 6vh;
-
-
-
     }
 
     #icons:hover {
@@ -413,23 +411,5 @@
 
     a {
         text-decoration: none;
-
-
-    }
-
-
-
-    .section_4 {
-        display: none;
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        background-color: whitesmoke;
-        background-size: cover;
-        scroll-snap-align: center;
-        color: black;
-
     }
 }
